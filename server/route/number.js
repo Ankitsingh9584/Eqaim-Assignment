@@ -32,8 +32,6 @@ async function add(){
         a=n2;
         b=n1;
     }
-   
-  
      let carry=0;
      let carry1=[];
      let sum=[];
@@ -57,16 +55,12 @@ async function add(){
            else{
                carry1.unshift(0);
                sum.unshift(carr1);
-             
-           }
+             }
        } 
        else{
          
              let carr1=Number(carry)+Number(a[i]);
-           sum.unshift(carr1)   
-           
-          
-           
+           sum.unshift(carr1)    
        }
      } 
   

@@ -15,6 +15,6 @@ app.use("/addition",numberRoute)
 
 
 app.listen(8080,async()=>{
-    await mongoose.connect("mongodb://127.0.0.1:27017/equim");
+    await mongoose.connect("mongodb+srv://ankit:ankit@cluster0.beo4ggn.mongodb.net/eqaim");
     console.log("server started on port 8080")
 })

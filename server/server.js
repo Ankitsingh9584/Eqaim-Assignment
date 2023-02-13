@@ -8,8 +8,9 @@ app.use(cors());
 
 
 const numberRoute=require("./route/number")
-
-app.use("/addition",numberRoute)
+const upper=require("./route/upper");
+app.use("/addition",numberRoute);
+app.use("/",upper)
 
 
 

@@ -74,12 +74,12 @@ async function add(){
           if(z>=0){
               bag.unshift(carry1[z--]);
               
-             obj["carryString"]=bag.join("");
+             obj["carryString"]=bag.join("")+"_";
              obj["sumString"]=bag1.join("");
              addArr.push(obj);
           }
           else{
-             obj["carryString"]=bag.join("");
+             obj["carryString"]=bag.join("")+"_";
              obj["sumString"]=bag1.join("");
              addArr.push(obj); 
           }
